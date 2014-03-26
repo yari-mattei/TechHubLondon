@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         buildcontrol: {
             dist: {
                 options: {
-                    remote: 'git@github.com:techhubdotcom/techhub.london.git',
+                    remote: 'git@github.com:TechHubLondon/TechHubLondon.git',
                     branch: 'gh-pages',
                     commit: true,
                     push: true
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
             master: {
                 options: {
                     dir: '<%= config.app %>',
-                    remote: 'git@github.com:techhubdotcom/techhub.london.git',
+                    remote: 'git@github.com:TechHubLondon/TechHubLondon.git',
                     branch: 'master',
                     commit: true,
                     push: true
